@@ -1,0 +1,468 @@
+commit a6e61ee46b77f9722a2758cc541ab2e2079875c1
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Sat Apr 30 16:27:47 2022 -0400
+
+    added JHED IDs and wrote comments for better readability
+
+commit 26d6c02395fe23b6d7ca1ceae8f82e7a456a49d6
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sat Apr 30 16:14:27 2022 -0400
+
+    implemented in_stalemate, added stop_stale, fixed in_mate
+
+commit e345436030196b07e9230ce0d8724af344a2a13a
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Sat Apr 30 16:00:11 2022 -0400
+
+    Debugged, got rid of the random print errors, began stalemate function
+
+commit a0f7e19190377a68eafc8ff2002095e4d8fb1143
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sat Apr 30 15:37:25 2022 -0400
+
+    fixed in_mate and added helper stop_mate
+
+commit 3ad38d9fe96ed90e6af830239da05baa76135d89
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Sat Apr 30 14:43:51 2022 -0400
+
+    README v1
+
+commit fc6b8068b5caa04170a48c3a6fedde9e5dbcbb8e
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sat Apr 30 14:35:37 2022 -0400
+
+    added UML diagram
+
+commit 16b8da81ca1008df67450a9ec2fa824eaff2aada
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sat Apr 30 14:29:06 2022 -0400
+
+    offload finding king to function, remove in_check_given_king
+
+commit c50c03aa86b24ce9c688588fdf3974ce2012feda
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sat Apr 30 11:54:22 2022 -0400
+
+    fixed "uninitialized" errors from copy ctor, edit indents
+
+commit 78b5411727d6588782b4de65a809cb69e1189901
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sat Apr 30 11:17:07 2022 -0400
+
+    remove move input change to upper
+
+commit 8eb616d0f8feb28238d47fa37a96017e7099168e
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sat Apr 30 11:15:16 2022 -0400
+
+    remove extra qualif. for in_check_given_king
+
+commit 01e1ccaed73d9405721cc4d8758a9d5fa88f710a
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Sat Apr 30 11:11:37 2022 -0400
+
+    added piece promotion, working on the in_mate function
+
+commit a517d0388ee609ccb3eadce60fd0272b12f42846
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 16:45:00 2022 -0400
+
+    fixed load from file check for player turn
+
+commit af4a04fcb0fd6a2d55440329f1f001852a5a3446
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 16:38:20 2022 -0400
+
+    fixed copy ctor, fixed make_move mem leaks
+
+commit f23f5951bf55dea982b8b9346850d4ff1f484a3c
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 14:01:05 2022 -0400
+
+    add and implement deep copy ctor
+
+commit e4bda7fc91fb2f166c02683c8528d115d00fec3a
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 13:50:54 2022 -0400
+
+    fix logic in make_move_errors and in_check
+
+commit bc90ebb68a79b28dc949ec75dea4c8e3fbffdf20
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Fri Apr 29 13:01:58 2022 -0400
+
+    in check working
+
+commit 810faa6b73013edf28dbd9ffc9a374a7a3cea14e
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 13:01:16 2022 -0400
+
+    added and implemented deep copy ctor and dtor
+
+commit ed4338174868fefc5d4fe5baea35b303cd28b1d7
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Fri Apr 29 12:19:07 2022 -0400
+
+    we can make moves now! need to do checks for checks
+
+commit 55d79407df65b6494efee6830e08e5c0f286e89b
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Fri Apr 29 12:10:12 2022 -0400
+
+    allowing backwards moves and fixing pawn logic
+
+commit f0ff9953c036af72b5b0b7be9505aeedcc25ae56
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 11:46:25 2022 -0400
+
+    fix load from file logic
+
+commit eb926b6ba8de84a828de691179778699e2b9f83b
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 11:36:32 2022 -0400
+
+    change discard piece logic
+
+commit 606935fe9f97663f8efc0626af4426f2feccf793
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 11:35:55 2022 -0400
+
+    fixed operator>>
+
+commit 6385c0e06e95be9a3e5317b8a3f56c6557f94709
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Fri Apr 29 11:32:00 2022 -0400
+
+    make move
+
+commit c179ced559583dbd9bc70cdc33c68e25d5885766
+Merge: 3eb7d42 5b1fdd1
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Fri Apr 29 11:29:10 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-final-cchow11-ddubey1-ffernan9
+    hello
+
+commit 3eb7d42fde44a8aed43f6d2d0020ee1ab1b418b2
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Fri Apr 29 11:27:38 2022 -0400
+
+    make move
+
+commit 5b1fdd1a4b35c58cc47f67c93611e053f2954d7f
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 11:22:54 2022 -0400
+
+    added case to discard piece in add_piece
+
+commit 254001975ccb9a106f96f0d27e0cddc326e3bb5d
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 11:21:28 2022 -0400
+
+    implemented operator>>, needs testing
+
+commit 704e26e879190a0661fd642d01a1951fa066f0a2
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Fri Apr 29 11:19:48 2022 -0400
+
+    make move work in progress
+
+commit f6a001e077635ce5a791bc2fcf6cd745ec57d465
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Fri Apr 29 10:30:00 2022 -0400
+
+    removed storing positions idea
+
+commit 9d987cb2c6b0f7c5ddc6e506f4e7dcc518a49150
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 29 10:26:58 2022 -0400
+
+    edit indent
+
+commit b4f7b07eb58f3316ebed2be69b228459717703cb
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Wed Apr 27 13:05:17 2022 -0400
+
+    trying to do the bishop files
+
+commit 2e17e815f567310e57394377b9a4da6230c43f44
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Wed Apr 27 11:50:09 2022 -0400
+
+    more edits to Game.cpp
+
+commit 7d8f4207b6f1bb3ccd3fbc3253f9d7aa7dc73a54
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Wed Apr 27 11:48:37 2022 -0400
+
+    removed in_bounds helper method from piece files
+
+commit 955c38c3375ec6cd3a19e728d0c22ffe1e11c71b
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Wed Apr 27 11:48:12 2022 -0400
+
+    implemented error checking in Game files
+
+commit e99395d547e1b49b361f69193fcfb66fc9d09d3f
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Wed Apr 27 11:46:58 2022 -0400
+
+    edited comment indent
+
+commit b8c452be3bd76b4c6d4188a73c5e4f8cdd84f823
+Merge: 2c32e06 8f0e669
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Wed Apr 27 11:42:42 2022 -0400
+
+    Merge branch 'master' of github.com:jhu-ip/2022-spring-final-cchow11-ddubey1-ffernan9
+    merge for main.cpp
+
+commit 2c32e0620ce99c23add78728ae4e95a2a8dd2986
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Wed Apr 27 11:41:21 2022 -0400
+
+    added try/catch for i/o and game loading
+
+commit 8f0e669f7e7e3d15918966f3026f6b3678251223
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Wed Apr 27 11:00:40 2022 -0400
+
+    print_err helper
+
+commit 3bbb967291296c78b53200974e08e5533be8cd8b
+Merge: ad52ae2 90495fb
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Wed Apr 27 10:52:41 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-final-cchow11-ddubey1-ffernan9
+    merging Game.cpp
+
+commit ad52ae24b50a510a3f31a11df475652bf6db52fa
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Wed Apr 27 10:49:34 2022 -0400
+
+    Modified point_value function for more efficiency
+
+commit 90495fb129102afb40ecb14c00aa086a76039f40
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Wed Apr 27 10:44:12 2022 -0400
+
+    started implementing try/catch
+
+commit 100ba7ae286051fec3a9fa770f4db55ff94e08db
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Wed Apr 27 10:43:06 2022 -0400
+
+    started implementing try/catch and added print_err function
+
+commit bd15b1fb1ca543d322a892d2662238740f0476cc
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 16:18:42 2022 -0400
+
+    fix comment typo, indent
+
+commit 4e6e8cb1a481546ceff013bee46287e50844b55b
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 16:17:47 2022 -0400
+
+    added comment to in_bounds
+
+commit a0b9b6877aaa9b37fc80ded58ed1922a5266fa54
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 16:17:20 2022 -0400
+
+    started implementing make_move
+
+commit c86a1975ab9dcdb74e2002b13b5a5ba5241b1151
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 15:51:17 2022 -0400
+
+    fix indentation/spacing
+
+commit 00c547970c98c84ee469b95f4116b6f95a2fb6ea
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 15:43:06 2022 -0400
+
+    added point_value functions to pieces
+
+commit eef3d94d5cd16a621d23ed4ce7bf92bee89c0906
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 15:41:19 2022 -0400
+
+    fix operator() for nullptr case
+
+commit fe5aff24ff463c5f5cdc5388038a085246508c38
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 15:40:44 2022 -0400
+
+    add typedef for occ map iterator
+
+commit c57c1bf79b3a4a2eda6c1607ae90b39eae48cc95
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 15:38:48 2022 -0400
+
+    implemented point_value
+
+commit f7c472ddb8b56160972b2e58ef4ab47b3c6b705e
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 15:09:28 2022 -0400
+
+    add point_value for pieces
+
+commit a91b91715dd50dac9ced00acf6408926d74ef303
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 14:52:05 2022 -0400
+
+    fix display
+
+commit fdfb3fc4906b8b6bd1a1c0c99b95ec53d971b5ba
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 14:48:19 2022 -0400
+
+    remove TODO comment
+
+commit 151dfdaa4c1c15eb3462eeebe487c84f945b43f9
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 14:45:51 2022 -0400
+
+    gitignore for obj files and executable
+
+commit 6dc3df745183e64b1e0339091692b3ea32830b26
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 14:45:26 2022 -0400
+
+    fix board display
+
+commit cfa1308c7ae8bd8fa01cf2102952a907ac835ab7
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Tue Apr 26 13:53:31 2022 -0400
+
+    edited piece printing
+
+commit dc768e23fbcc9bfce7ac1a89be294732bbf5cc26
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Mon Apr 25 21:38:53 2022 -0400
+
+    testing
+
+commit 3ad135a459fe90b1edd6a1c186ae5bcff66a715b
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Mon Apr 25 13:37:20 2022 -0400
+
+    displaying blank board success - added comments
+
+commit 4419824e772d992409fe26dfa237a58c600269c0
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Mon Apr 25 13:36:42 2022 -0400
+
+    displaying blank board success
+
+commit 575db87f7d8759b6f6c40e822e444a284a6697bd
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Mon Apr 25 12:26:33 2022 -0400
+
+    changed legal capture move
+
+commit e55e433146b128dc218f3583e673344dea155db1
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sun Apr 24 18:41:24 2022 -0400
+
+    simplify valid designator check
+
+commit 836ea2d8dce2494cdf927e34e49b9e69eba31705
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Sun Apr 24 18:36:02 2022 -0400
+
+    Wrote operator() and add_piece functions in Board.cpp
+
+commit 279ef14c4b1cfa8f3cb3876e05507d984977fd84
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sun Apr 24 17:41:59 2022 -0400
+
+    implemented legal_capture_shape in .cpp, defined in .h
+
+commit d4a9cc533d543312e5a53454c770bb3e1c40baaf
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sun Apr 24 16:57:30 2022 -0400
+
+    offload in_bounds check to function in Piece.h
+
+commit 53092a944218d0fcc6efe6ddeae339f87981026e
+Merge: a1692a3 b20ef6c
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Sat Apr 23 18:09:30 2022 -0400
+
+    Merge branch 'master' of https://github.com/jhu-ip/2022-spring-final-cchow11-ddubey1-ffernan9
+
+commit a1692a340bfb2a16b1dc31516ecb381a5ff75b79
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Sat Apr 23 18:07:32 2022 -0400
+
+    Queen has to be fixed
+
+commit b20ef6c0245356efe93cf421d4a6d7916c7ae4cc
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 22 20:58:32 2022 -0400
+
+    fix legal_move_shape logic
+
+commit e860c6e386e4856a6a0445b1f8e0a955b9836e99
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 22 20:44:54 2022 -0400
+
+    fix #include header and function scope
+
+commit f7427a214bd988845ed15c5fa48e4da7d19ca281
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Fri Apr 22 16:20:46 2022 -0400
+
+    wrote Pawn and Rook for legal_move_shape
+
+commit 45c9d7231d945f88e4ee06b0c5dec2d561cf00fb
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 22 15:57:20 2022 -0400
+
+    implemented legal_move_shape
+
+commit c31ab74f3f92389201406a6b64b944a541b79e76
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Fri Apr 22 15:33:25 2022 -0400
+
+    made copies of the Bishop.cpp class for all other pieces
+
+commit eb2f3b272ca8d5c413360baaf5d32855000c351f
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 22 15:27:34 2022 -0400
+
+    implemented legal_move_shape
+
+commit fa9f43581ad1c54d71e9104036912ed888943574
+Author: Dhruv Dubey <ddubey1@jhu.edu>
+Date:   Fri Apr 22 15:10:32 2022 -0400
+
+    chnaged legal move function in Bishop
+
+commit 9c812f4e0d6b48b91ffb459255808a67b9bfae1e
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 22 15:06:44 2022 -0400
+
+    legal_move_shape in progress
+
+commit a2ae831cbec7650bbbed04a34275503df349a62d
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Fri Apr 22 14:44:44 2022 -0400
+
+    fix comment formatting
+
+commit 71a02f998156e34fd8b40bb9ac54286315a54f62
+Author: julianchow28 <cchow11@jhu.edu>
+Date:   Mon Apr 18 10:49:25 2022 -0400
+
+    Initialized with the starter codes
+
+commit 8b0879815a6770a8e843814e46b52c3a2944ba1d
+Author: Fabiofdez <ffernan9@jhu.edu>
+Date:   Sat Apr 16 11:11:15 2022 -0400
+
+    add readme

@@ -1,0 +1,22 @@
+Repository for Final Project - SP'22
+   -- Dhruv -- Fabio -- Julian --
+
+Team
+Julian Chow cchow11
+Dhruv Dubey ddubey1
+Fabio Fernandez ffernan9
+
+Design
+- Overall design:
+A game starts by calling the default constuctor of game and creating a board with the pieces. 
+We then run checks to see if pieces are in mate/stalemate etc... then allow players to give commands.
+The file I/O commands are quite trivial, but our make_move function uses the following logic: first, 
+we check for movement errors that don't require analysis of the specific game that is being run. Then, we check for other errors such as path exposes check and finally, we simply add/delete pieces at the start/ending positions to complete a move. 
+
+- point_value function: 
+Called at the beginning of each turn, Game::point_value is a function 
+which calls the point_value function of each piece. The point value of 
+each piece is then returned by its associated point_value function. 
+
+Completeness
+As far as we know, our code is complete. There are no functionalities that we have left out.
